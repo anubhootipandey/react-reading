@@ -1,0 +1,12 @@
+1. child component rendering
+2. form building in react
+3. Destructuring
+4. controlled and uncontrolled component
+5.empty fragment
+6. why do we use useState hook?
+7. states and props
+8. React hooks- useState, useEffect
+9. map, forEach, filter, reduce
+10. concatenate, slice, splice -- array methods
+11. react router
+12. local storage 
