@@ -13,12 +13,15 @@ const InputForm = () => {
     console.log(nameValue);
 
     const handleAgeChanges = (event) => {
-        setAgeValue(event.target.value);
+        setAgeValue(event.target.value);//this function changes the age values
     }
     console.log(ageValue);
 
-    const handleSubmit = () => {
-        alert(`You have entered : ${nameValue}, ${ageValue}`);
+    const handleSubmit = (e) => {
+        //alert(`You have entered : ${nameValue}, ${ageValue}`);
+        e.preventDefault();
+        console.log(nameValue);
+        console.log(ageValue);
     }
 //To do onSubmit show the name and age in the ui
 //Write the comment for all the functions
