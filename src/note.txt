@@ -2,7 +2,7 @@
 2. form building in react
 3. Destructuring
 4. controlled and uncontrolled component
-5.empty fragment
+5. empty fragment
 6. why do we use useState hook?
 7. states and props
 8. React hooks- useState, useEffect
@@ -10,3 +10,12 @@
 10. concatenate, slice, splice -- array methods
 11. react router
 12. local storage 
+
+useState Hook:
+--Allows functional components to manage local state.
+--Returns a stateful value and a function to update it.
+
+useEffect Hook:
+--Allows functional components to perform side effects.
+--Runs after every render by default.
+--Can optionally specify dependencies to control when it runs.
