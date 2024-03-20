@@ -19,3 +19,37 @@ useEffect Hook:
 --Allows functional components to perform side effects.
 --Runs after every render by default.
 --Can optionally specify dependencies to control when it runs.
+
+-----------------What is React Router?
+React Router is like a navigation manager for React applications. 
+It helps build single-page web apps where you can navigate to 
+different sections without refreshing the entire page. This keeps 
+the user experience smooth and also updates the browser URL as 
+you move around.
+In React, components are a big deal, and React Router uses this 
+concept. You don't have to use React Router, but it's a popular 
+choice for managing navigation.
+
+Key components of React Router
+1. BrowserRouter
+- This is like the boss. It uses the HTML5 history API to keep 
+your app in sync with the URL. It's like the container that holds 
+all the other components.
+2. Routes
+- This is a newer addition to React (as of version 6). Think of it 
+as an upgraded version of the component that helps with 
+routing.
+Medium
+3. Route
+- This is where the action happens. Whenever the URL matches 
+the path you set, this component decides what UI to show. It's 
+like a conditionally displayed part of your app.
+4. Link
+- Similar to an anchor tag in HTML, this helps create links to 
+different routes, making navigation smooth across your 
+application.
+
+In simpler terms, React Router is like a guide for your React app, 
+helping you move between different pages or sections without 
+reloading the entire page. It's a way to organize and manage how 
+your app responds to different URLs.
